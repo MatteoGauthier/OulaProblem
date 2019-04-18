@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 285px;
+    line-height: normal;
+
+    color: #303030;
+}
+
+.barA {
+top: 0;
+left: 0;
+
+}
+
+.barB {
+    right: 0;
+    bottom: 0;
+}
+img {
+    z-index: -6;
+    position: fixed;
+}
