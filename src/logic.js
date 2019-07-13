@@ -2,15 +2,15 @@ var responseCode;
 var data = [
   {
     code: "400",
-    desc: "Désolé du dérangement, mais en général c’est vous qui êtes égarés 😬"
+    desc: "Attention c'est pas la bonne URL"
   },
   {
     code: "401",
-    desc: "Désolé du dérangement, mais en général c’est vous qui êtes égarés 😬"
+    desc: "Désolé tu n'es pas authorisé 🤭"
   },
   {
     code: "403",
-    desc: "Désolé du dérangement, mais en général c’est vous qui êtes égarés 😬"
+    desc: "Interdit, pas le droit de passer déso 🤪"
   },
   {
     code: "404",
@@ -18,11 +18,11 @@ var data = [
   },
   {
     code: "500",
-    desc: "Désolé du dérangement, mais en général c’est vous qui êtes égarés 😬"
+    desc: "La par contre c'est vraiment nous 😱"
   },
   {
     code: "501",
-    desc: "Désolé du dérangement, mais en général c’est vous qui êtes égarés 😬"
+    desc: "On connait pas ça, non pas du tout 😐"
   },
   {
     code: "502",
@@ -30,15 +30,15 @@ var data = [
   },
   {
     code: "503",
-    desc: "Désolé du dérangement, mais en général c’est vous qui êtes égarés 😬"
+    desc: "On peut pas vous ramenez le café pour l'instant mais ça ne saurait tarder"
   },
   {
     code: "520",
-    desc: "Désolé du dérangement, mais en général c’est vous qui êtes égarés 😬"
+    desc: "Je donne ma langue au chat"
   },
   {
     code: "521",
-    desc: "Désolé du dérangement, mais en général c’est vous qui êtes égarés 😬"
+    desc: "Oula c'est vraiment cassé"
   },
   {
     code: "200",
