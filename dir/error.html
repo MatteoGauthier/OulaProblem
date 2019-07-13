@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Erreur 404</title>
+    <link rel="stylesheet" href="master.min.css">
+    <style>/*! minireset.css v0.0.5 | MIT License | github.com/jgthms/minireset.css */html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select,textarea{margin:0}html{-webkit-box-sizing:border-box;box-sizing:border-box}*,*:before,*:after{-webkit-box-sizing:inherit;box-sizing:inherit}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0;text-align:left}a{text-decoration:none;color:inherit}body{background:#181818}.hero{height:35%;width:100%;background-color:white;padding:100px 110px}.errorCODE{font-size:102px;font-family:"Abril Fatface";color:#181818;text-align:left}.subtitle{font-size:32px;font-family:"Lato", Lato;font-weight:500;color:#181818;text-align:left}.play{background-color:#181818;height:100%;width:100%}.accroche{text-align:center;font-family:'Lato', Lato;font-weight:500;color:white;font-size:30px;padding:2rem 1rem 1rem}.footer{color:grey;font-family:'Source Code Pro', Source Code Pro, monospace;position:absolute;bottom:0;padding:10px}span{font-family:'Source Code Pro', Source Code Pro;text-align:center;display:block;color:white;font-size:30px;margin:0 0 24px}.zdog{background-color:#181818;padding:32px 17px}.zdog-demo{height:10rem;display:block;border-radius:5px}.choices{margin:1% 10%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.box{border:#303030 solid 1px;border-radius:5px;display:block}.box .elms{display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex}.box .elms img{margin:0 1rem}
+            /*# sourceMappingURL=master.min.css.map */</style>
+    <script src="https://unpkg.com/zdog"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="hero">
+            <div id="target"></div>
+    </div>
+    <div class="play">
+        <div class="wantto">
+            <div class="accroche">En attendant vous pouvez jouer avec :</div>
+            <div class="choices">
+                <a target="_blank" href="https://codepen.io/search/pens?q=zdog&order=popularity&depth=everything" class="box zdog">
+                    <span>Zdog.js</span>
+                    <div class="elms">
+                        <img class="zdog-demo" src="test-zdog.png" alt="" srcset="">
+                        <img class="zdog-demo" src="test-zdog2.png" alt="" srcset="">
+
+                    </div>
+                </a>
+                <!-- <div class="box morpion">
+                    
+                </div> -->
+            </div>
+            <div class="footer">
+                <div class="reload">
+                    <a href="" onClick="location.reload()">reload</a>
+                    <a href="https://t.me/MatteoGauthier">contact</a>
+                </div>
+                <div class="contacts">
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="couscous"></div>
+
+    <script id="template" type="text/x-handlebars-template">
+    
+        
+
+        <div class="errorCODE">
+                
+                Error {{error_code}}
+            </div>
+            <div class="subtitle">
+                {{error_desc}}
+            </div>
+    </script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.min.js"></script>
+    <script src="logic.js"></script>
+</body>
+
+</html>

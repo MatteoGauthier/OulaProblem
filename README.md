@@ -1,2 +1,3 @@
 # OulaProblem
-Http Error page"bonjour" 
+This repository contain some http error page sample, they work with Apache server for the moment (more hosting software soon)
+

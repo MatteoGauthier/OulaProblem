@@ -1,0 +1,15 @@
+./page.sh > bad_gateway.html	
+./page.sh > bad_request.html
+./page.sh > forbidden.html
+./page.sh > internal_server_error.html
+./page.sh > maintenance.html
+./page.sh > method_not_allowed.html
+./page.sh > not_acceptable.html
+./page.sh > not_found.html
+./page.sh > not_implemented.html
+./page.sh > precondition_failed.html
+./page.sh > proxy_authentication_required.html
+./page.sh > request-uri_too_long.html
+./page.sh > unauthorized.html
+./page.sh > unsupported_media_type.html
+./page.sh > unsupported_media_type.html
