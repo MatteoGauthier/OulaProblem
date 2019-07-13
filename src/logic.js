@@ -67,7 +67,7 @@ fetch(window.location.href)
 
 function oldTownRoad(errorResponse) {
   var found = findTheFineErrorMessage(errorResponse)
-  document.getElementById("couscous").innerHTML = found[0].desc;
+  // document.getElementById("couscous").innerHTML = found[0].desc;
   window.onload = function() {
     console.log(window);
     var template = document.getElementById("template").innerHTML;
@@ -78,7 +78,7 @@ function oldTownRoad(errorResponse) {
       error_code: found[0].code,
       error_desc: found[0].desc
     });
-
+    document.title = 'Error ' + found[0].code + ' - Semoule.fr' 
     document.getElementById("target").innerHTML = rendered;
   };
 }
